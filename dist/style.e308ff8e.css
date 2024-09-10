@@ -1,0 +1,97 @@
+head {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 0.5fr 2fr 0.5fr;
+  grid-template-columns: repeat(12, 130px);
+  grid-gap: 10px;
+  background-color: #F2F5F9;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+.card-content {
+  border-radius: 1.2rem;
+  grid-row: 2/3;
+  grid-column: 5/8;
+  position: relative;
+}
+.card-content__img {
+  border-radius: 1.2rem 1.2rem 0 0;
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  height: 250px;
+  width: 100%;
+}
+.card-content__img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.card-content__img svg {
+  width: 410px;
+  height: 70px;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  pointer-events: none;
+}
+.card-content__wrapper {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  margin-left: 1.2rem;
+  padding: 1rem;
+  background-color: #fff;
+}
+.card-content__text {
+  font-family: "Lato", sans-serif;
+  color: #677489;
+  line-height: 1.6;
+}
+.card-content__header {
+  font-family: "Poppins", sans-serif;
+  font-style: 800;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: -1px;
+  color: #111729;
+}
+.card-content__author {
+  height: 75px;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+.card-content__author-img {
+  height: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 1rem;
+}
+.card-content__author-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.card-content__author-name {
+  font-size: 10px;
+  line-height: 0.5;
+}
+.card-content__author-name p {
+  font-size: small;
+  color: #677489;
+}
+
+
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
